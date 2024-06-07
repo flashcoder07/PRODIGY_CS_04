@@ -7,7 +7,7 @@ keys=[]
 
 
 def write_file(keys):
-    with open("log.txt", "a") as f:
+    with open("log.txt", "adfg") as f:
         for key in keys:
             f.write(str(key) )
 
